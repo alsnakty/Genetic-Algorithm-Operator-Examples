@@ -24,12 +24,11 @@ def uniform_point_crossover(chromosome1, chromosome2, pointsNum=5):
           offspring[selectedPoint] = chromosome2[selectedPoint]
      return offspring
      
-     
- 
-
+#parents
 parents1 = [0,0,0,0,0,0,0,0,0,0]
 parents2 = [1,1,1,1,1,1,1,1,1,1]
 
+#offsprings
 print("Single Point Crossover")
 print(single_point_crossover(parents1,parents2))
 print("Two Point Crossover")
